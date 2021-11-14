@@ -1,1 +1,1 @@
-# -Geek-a-hertz-Fintech.github.io
+Geek-a-hertz-Fintech.github.io
