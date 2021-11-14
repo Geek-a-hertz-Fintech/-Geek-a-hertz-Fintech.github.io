@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Payez.png" type="image/x-icon">
+    <style>
+        #explore {
+            display: flex;
+            justify-content: center;
+        }
+
+        #explore div {
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 5%;
+            border: 1px solid black;
+            text-align: center;
+            margin: 0 10px;
+            padding: 10px;
+        }
+
+        #explore div:hover {
+            box-shadow: 5px 10px black;
+        }
+
+        .cc {
+            border: 1px solid #56bd56;
+        }
+
+        .Ask-us {
+            border: 1px solid #b45151;
+        }
+
+        .s-market {
+            border: 1px solid #202088;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        button {
+            padding: 8px 16px;
+            font-size: 17px;
+            border-radius: 25px;
+            border: none;
+            margin: 15px auto;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+
+        button:hover {
+            color: rgb(117, 114, 114);
+        }
+
+        #cc {
+            background: rgb(46, 161, 46);
+
+        }
+
+        #Ask {
+            background: rgb(143, 21, 21);
+
+        }
+
+        #s {
+            background: rgb(38, 38, 134);
+        }
+
+        a {
+            font-size: 16px;
+        }
+
+        .cc a {
+            color: #39a739;
+            text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+        }
+
+        .s-market a {
+            color: #1b1bc4;
+            text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+        }
+
+        .navbar {
+            position: relative;
+        }
+
+        @media screen and (max-width: 768px) {
+            #explore {
+                display: inline;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <!-- Logo -->
+            <a href="/" class="nav-logo"><img src="Payez.png" alt="" width="100" height="100"></a>
+            <!-- Links -->
+            <ul class="nav-container">
+                <li class="nav-item">
+                    <a href="pay.html" class="link">Pay It</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn"><a href="get.html"> Sign Up </a></button>
+                </li>
+            </ul>
+            <!-- A sort of icon for respnosive -->
+            <div class="res">
+                <span class="toggleMore"></span>
+                <span class="toggleMore"></span>
+                <span class="toggleMore"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="bg intro">
+
+        <section id="explore">
+            <div class="cc">
+                <h3>Customer Care</h3>
+                <p>Our Support team is spread all over the world to give you fast response</p>
+                <button id="cc" onclick="alert('mail at ashutosh19801@gmail.com')">Submit a Request</button>
+            </div>
+            <div class="Ask-us">
+                <h3>Ask Us</h3>
+                <p> You can Ask us if you have any queries</p>
+                <a href="mailto:ashuosh190081@gmail.com"> <button id="Ask">Email</button></a>
+                <!-- <a href="./contact-form.html"> <button id="Ask">Ask</button></a>  u-->
+            </div>
+            <div class="s-market">
+                <h3>Marketing</h3>
+                <p>Get in touch with our marketing team</p>
+                <button id="s" onclick="alert('mail at ashutosh19801@gmail.com')">Contact Us</button>
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

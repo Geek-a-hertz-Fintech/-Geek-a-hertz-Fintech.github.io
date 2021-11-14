@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payez</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d14449c2ee.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/Payez.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- Logo -->
+            <a href="/" class="nav-logo"><img src="Payez.png" alt="" width="100" height="100"></a>
+            <!-- Links -->
+            <ul class="nav-container">
+                <li class="nav-item">
+                    <a href="pay.html" class="link">Pay It</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-btn"><a href="backend.html"> Sign Up </a></button>
+                </li>
+            </ul>
+            <!-- A sort of icon for respnosive -->
+            <div class="res">
+                <span class="toggleMore"></span>
+                <span class="toggleMore"></span>
+                <span class="toggleMore"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="body">
+        <section class="intro bg">
+            <!-- An hero text with a background -->
+            <h1>Payez</h1>
+            <p>Payez is an leading online Fin tech company which quickly achieved its first million users. Its one of the
+                most
+                trusted company with over 122K monthly users. With Payez you can easily transfer money to others. Its
+                one of the top ranked Fin Tech companies in India and Top 50 in the whole world.</p>
+            <form class="getUsers">
+                <input type="email" name="email" id="email" placeholder="Enter your id">
+                <button class="nav-btn"><a href="backend.html"> Sign Up </a></button>
+            </form>
+        </section>
+        <section class="users com">
+            <div class="comp info">
+                <!-- Icon -->
+                <img src="spotify.jpg" alt="companies" width="150" height="50">
+                <img src="microsft.png" alt="companies" width="180" height="50">
+                <img src="google.png" alt="companies" width="190" height="46">
+                <img src="flipkart.png" alt="companies" width="150" height="46">
+                <img src="erricosn.png" alt="companies" width="150" height="46">
+            </div>
+        </section>
+        <section class="intro everywhere">
+            <!-- An hero text with a background -->
+            <h1>We are everywhere</h1>
+        </section>
+        <section class="users every">
+            <div class="user info">
+                <!-- Icon -->
+                <i class="fas fa-user-friends"></i>
+                <p>12M+ Users worldwide</p>
+            </div>
+            <div class="user info">
+                <!-- Icon -->
+                <i class="fas fa-laptop"></i>
+                <p>150+ Countries</p>
+            </div>
+            <div class="user info">
+                <!-- Icon -->
+                <i class="fas fa-credit-card"></i>
+                <p>10M+ payments</p>
+            </div>
+        </section>
+        <aside class="how">
+            <h1 class="intro">Learn how to pay, in 4 easy steps</h1>
+            <button class="tabnav" onclick="openPage('step1', this, '#a200df')">Step 1</button>
+            <button class="tabnav" onclick="openPage('step2', this, '#134233')">Step 2</button>
+            <button class="tabnav" onclick="openPage('step3', this, '#159af7')">Step 3</button>
+            <button class="tabnav" onclick="openPage('step4', this, '#ff404f')">Step 4</button>
+            
+            <div id="step1" class="howto">
+                
+              <h3>Step 1</h3>
+              <p>Visit the PayIt Page</p>
+            </div>
+            
+            <div id="step2" class="howto">
+              <h3>Step 2</h3>
+              <p>Read the guidlines carefully!</p>
+            </div>
+            
+            <div id="step3" class="howto">
+              <h3>Step 3</h3>
+              <p>Contact us and get verified</p>
+            </div>
+            
+            <div id="step4" class="howto">
+              <h3>Step 4</h3>
+              <p>Pay without any third party resource!</p>
+            </div>
+        </aside>
+        <aside class="about intro">
+            <h2>Learn more about us</h2>
+            <span><a style="color: #fff;" href="about.html">About Us</a></span>
+        </aside>
+        <aside class="contact intro">
+            <h2>Contact Us, regarding queries, review or any issues</h2>
+            <span><a style="color: #ffffff;" href="contact/">Contact Us</a></span>
+        </aside>
+    </main>
+    <footer class="footer">
+        <a href="/" class="nav-logo ii"><img src="Payez.png" alt="" width="100" height="100"></a>
+        <!-- Links -->
+        <ul class="nav-container">
+            <li class="nav-item">
+                <a href="pay.html" class="link">Pay It</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="about.html" class="link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact/" class="link">Contact Us</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
